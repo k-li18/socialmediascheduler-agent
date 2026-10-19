@@ -1,0 +1,15 @@
+{
+  "name": "social-media-scheduler",
+  "description": "Social Media Scheduler for Claude Code: publish and schedule posts to ten social networks.",
+  "owner": {
+    "name": "Social Media Scheduler",
+    "url": "https://socialmediascheduler.cc"
+  },
+  "plugins": [
+    {
+      "name": "social-media-scheduler",
+      "source": "./",
+      "description": "Publish and schedule social posts from Claude Code: MCP server plus a skill for the posting workflow."
+    }
+  ]
+}

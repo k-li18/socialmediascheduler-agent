@@ -1,0 +1,12 @@
+{
+  "name": "social-media-scheduler",
+  "description": "Publish and schedule posts to Instagram, TikTok, YouTube, LinkedIn, Facebook, X, Threads, Pinterest, Bluesky and Google Business from Claude Code, through the Social Media Scheduler MCP server.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Social Media Scheduler",
+    "url": "https://socialmediascheduler.cc"
+  },
+  "homepage": "https://socialmediascheduler.cc/developers",
+  "license": "MIT",
+  "keywords": ["social media", "scheduling", "instagram", "tiktok", "mcp"]
+}

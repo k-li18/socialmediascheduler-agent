@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "social-media-scheduler": {
+      "type": "http",
+      "url": "https://socialmediascheduler.cc/api/mcp"
+    }
+  }
+}

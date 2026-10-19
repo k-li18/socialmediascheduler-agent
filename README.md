@@ -36,7 +36,9 @@ Cursor: add this to `~/.cursor/mcp.json`:
 { "mcpServers": { "social-media-scheduler": { "url": "https://socialmediascheduler.cc/api/mcp" } } }
 ```
 
-Claude.ai and ChatGPT: add a custom connector with the URL `https://socialmediascheduler.cc/api/mcp` and sign in.
+Claude (web and desktop, any plan; Free allows one custom connector): **Customize → Connectors → Add custom connector**, paste `https://socialmediascheduler.cc/api/mcp`, click **Add**, then **Connect** and sign in. On Team and Enterprise an Owner adds it under **Organization settings → Connectors → Add → Custom → Web**, then members click **Connect**.
+
+ChatGPT: go to [chatgpt.com/plugins](https://chatgpt.com/plugins), click **+ → Add custom MCP server**, paste the same URL, choose OAuth, accept the warning and click **Create as a plugin**, then sign in. Availability depends on your ChatGPT plan and workspace settings.
 
 The server signs in with OAuth, so no key is needed in clients that support it. Clients that don't can send `Authorization: Bearer sms_…` with a key from Dashboard → Agents & API keys.
 
